@@ -1,0 +1,28 @@
+
+It's all about version control. 
+Commands let you compare different files
+
+FC <file 1> <file 2> (in correct directory) can compare two files 
+
+Git uses manual saving. Each save is assumed to be a complete and lorical change; and each is called a 'commit'
+
+git log lets you look at each commit.
+git diff lets you compare different commits
+
+a set of files being tracked together is called a 'repository'. This is often necessary since one file depends on another.
+
+'clone' downloads a file structure - give a name and do it. You need to be in the top folder to use git commands.
+
+git checkout <is reverting to an older version
+
+example work:
+
+547f4171a82ec6429d002c1acef357aec41d3f17
+71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+
+003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a
+746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91
+
+repositories contain hidden metadata. one can check this with ls -a to look at hidden files.
+
+Initializing a repository helps because it lets you 
